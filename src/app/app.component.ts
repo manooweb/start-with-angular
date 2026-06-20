@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
       new Date(),
       0
     );
+    this.faceSnap.setLocation('At home');
 
     this.secondFaceSnap = new FaceSnap(
       'Mon deuxième snap',

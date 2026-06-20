@@ -3,6 +3,11 @@
   <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
   <p>Mis en ligne le {{ faceSnap.createdDate }}</p>
   <p>{{ faceSnap.description }}</p>
+  @if (faceSnap.location) {
+    <p>Lieu: {{ faceSnap.location }}</p>
+  } @else {
+    <p>Lieu: Non spécifié</p>
+  }
   <p>
       <button (click)="onAddSnap()">{{ buttonLabel }}</button>
     🤌 {{ faceSnap.snaps }}</p>
