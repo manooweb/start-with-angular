@@ -1,5 +1,8 @@
 {
-  "dependencies": {
+  "name": "start-with-angular",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
     "@angular/cli": "^17.3.17"
   }
 }
