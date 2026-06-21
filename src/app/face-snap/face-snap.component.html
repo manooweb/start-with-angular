@@ -1,4 +1,5 @@
 <div class="face-snap-card" [ngClass]="{'snapped': snapped}">
+  <p>{{ 456.38 | currency:'EUR' : 'code' }}</p>
   <h2>{{ faceSnap.title | titlecase }}</h2>
   <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
   <p>Mis en ligne le {{ faceSnap.createdDate | date:'dd MMMM yyyy à HH:mm' }}</p>
