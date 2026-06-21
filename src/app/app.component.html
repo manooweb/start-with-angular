@@ -1,3 +1,7 @@
-@for (faceSnap of faceSnaps; track faceSnap.title) {
-  <app-face-snap [faceSnap]="faceSnap"/>
-}
+<div class="app">
+  <div class="face-snap-list">
+    @for (faceSnap of faceSnaps; track faceSnap.title) {
+    <app-face-snap [faceSnap]="faceSnap" />
+    }
+  </div>
+</div>

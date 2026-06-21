@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
         'Mon deuxième snap description',
         'https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954_1280.jpg',
         new Date(),
-        0
+        200
       ),
       new FaceSnap(
         'Mon troisième snap',
