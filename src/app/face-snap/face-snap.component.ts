@@ -1,6 +1,6 @@
 import { Component, inject, Input, OnInit } from '@angular/core';
 import { FaceSnap } from '../models/face-snap';
-import { NgStyle, NgClass, TitleCasePipe, DatePipe } from '@angular/common';
+import { NgClass, TitleCasePipe } from '@angular/common';
 import { FaceSnapsService } from '../services/face-snaps.service';
 import { RouterLink } from '@angular/router';
 
